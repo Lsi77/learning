@@ -5,7 +5,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>智能移动学习平台</title>
+<title>主题内容在线学习</title>
 <link href="<%=Const.LOGROOT%>css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -27,7 +27,7 @@
 <div class="message warning">
 <div class="inset">
 	<div class="login-head">
-		<h1>智能移动学习平台</h1>
+		<h1>主题内容在线学习</h1>
 		 <div class="alert-close">  </div> 			
 	</div>
 		<form action="<%=Const.ROOT%>user/login" method="post"  enctype="multipart/form-data">
@@ -53,7 +53,7 @@
 	<div class="clear"> </div>
 <!--- footer --->
 <div class="footer">
-	<p>Copyright &copy; 智能移动学习平台.</p>
+	<p>Copyright &copy; 主题内容在线学习.</p>
 </div>
 
 </body>

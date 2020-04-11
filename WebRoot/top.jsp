@@ -11,7 +11,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand waves-effect waves-dark"  href=""> <strong>智能移动学习平台</strong></a>
+                <a class="navbar-brand waves-effect waves-dark"  href=""> <strong>主题内容在线学习</strong></a>
 				
 		<div id="sideNav" href=""><i class="material-icons dp48">toc</i></div>
             </div>
@@ -303,61 +303,63 @@
         </nav>
   <!-- 模态框（Modal） -->
 
- 
+
 <div class="modal fade" id="gonggaoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-   
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">发布公告</h4>
-            </div>
-            <!-- 新增 -->
-           <div class="row" id="addgonggaomodal" style="display: none">
-                <div class="col-lg-12">
-                 
-                        <div class="card-content">
-                         	<form class="col s12" action="<%=Const.ROOT%>news/addNews" method="post" enctype="multipart/form-data">
-                         			<input type="hidden" id="top" name="top" value="2">
-                         			
-								  <div class="row">
-									<div class="input-field col s6">
-									
-						 				<input id="title" name="title" required="" type="text" class="validate">
-									  <label for="icon_prefix">标题</label>
-							
-									</div>
-									
-								  </div>
-								<div class="row">
-								<div class="input-field col s12">
-								  <textarea id="textarea1" name="content" required="" id="content" class="materialize-textarea"></textarea>
-								  <label for="textarea1">内容</label>
-								</div>
-							  </div>
-								   
-								   
-								  <div class="modal-footer">
-									   
-									   <button type="submit" class="btn btn-primary">保存</button>
-									   
-								   </div>
-								  
-								
-							</form>
-							 
- 
-   <!-- 模态框结尾 -->
-  <div class="switch">
-    <label>
-    </label>
-  </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-           
-          
-   </div>
+
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">发布公告</h4>
         </div>
+        <!-- 新增 -->
+        <div class="row" id="addgonggaomodal" style="display: none">
+            <div class="col-lg-12">
+
+                <div class="card-content">
+                    <form class="col s12" action="<%=Const.ROOT%>news/addNews" method="post"
+                          enctype="multipart/form-data">
+                        <input type="hidden" id="top" name="top" value="2">
+
+                        <div class="row">
+                            <div class="input-field col s6">
+
+                                <input id="title" name="title" required="" type="text" class="validate">
+                                <label for="icon_prefix">标题</label>
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" name="content" required="" id="content"
+                                          class="materialize-textarea"></textarea>
+                                <label for="textarea1">内容</label>
+                            </div>
+                        </div>
+
+
+                        <div class="modal-footer">
+
+                            <button type="submit" class="btn btn-primary">保存</button>
+
+                        </div>
+
+
+                    </form>
+
+
+                    <!-- 模态框结尾 -->
+                    <div class="switch">
+                        <label>
+                        </label>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+
+
+    </div>
+</div>
         
          
 <div class="modal fade" id="zuoyeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>智能移动学习平台</title>
+    <title>主题内容在线学习</title>
 	
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="<%=Const.ROOT %>assets/materialize/css/materialize.min.css" media="screen,projection" />
@@ -31,7 +31,7 @@
         <div id="page-wrapper" style="margin-top: -20px">
 		  <div class="header"> 
                         <h1 class="page-header">
-                            	注册 <small>智能移动学习平台.</small>
+                            	注册 <small>主题内容在线学习.</small>
                         </h1>
 						
 									
